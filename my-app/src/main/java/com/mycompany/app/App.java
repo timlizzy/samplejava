@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-import com.mycompany.app.Ext;
+import com.mycompany.base.Ext;
 
 /**
  * Hello world!

@@ -9,5 +9,4 @@ creates a jar (or whatever target format is defined in the POM) in the project's
     mvn install                       
 puts the jar into the maven repo <user>\.m2\repository
 
-    java -jar my-app-1.0-SNAPSHOT.jar -cp dependency\my-base-1.0-SNAPSHOT.jar
-
+	java -cp "*" com.mycompany.app.App
