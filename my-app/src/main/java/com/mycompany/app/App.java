@@ -12,7 +12,6 @@ public class App
     {
         Ext oExt = new Ext("krasse Sache");
         Toll oToll = new Toll(oExt.getText());
-        //Toll oToll = new Toll("hajo");
         System.out.println( oToll.getText() );
     }
 }
