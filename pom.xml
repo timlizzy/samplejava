@@ -10,8 +10,8 @@
         <packaging>pom</packaging>
 
         <modules>
-                <module>/my-app</module>
                 <module>/my-base</module>
+                <module>/my-app</module>
         </modules>
 
 </project>
