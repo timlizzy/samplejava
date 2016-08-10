@@ -13,20 +13,4 @@
                 <module>/my-base</module>
                 <module>/my-app</module>
         </modules>
-
-        <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
-                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
-          <proxies>
-           <proxy>
-              <id>example-proxy</id>
-              <active>true</active>
-              <protocol>http</protocol>
-              <host>proxy</host>
-              <port>8080</port>
-            </proxy>
-          </proxies>
-        </settings>
-
 </project>
